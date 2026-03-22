@@ -3,6 +3,9 @@
   padding: 0.85rem 1.25rem;
   border-bottom: 1px solid var(--color-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .categories-bar-inner {
@@ -53,14 +56,79 @@
   padding-right: 0.75rem;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
+  .categories-bar {
+    padding: 0.65rem 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
   .categories-bar-inner {
     flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
+    align-items: stretch;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding-left: max(0.75rem, env(safe-area-inset-left));
+    padding-right: max(0.75rem, env(safe-area-inset-right));
+    box-sizing: border-box;
   }
 
   .categories-bar-label {
     margin-right: 0;
+    text-align: center;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    padding: 0 0.25rem;
+  }
+
+  .categories-bar-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0.5rem;
+    padding: 0.2rem 0 0.45rem;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scroll-snap-type: x proximity;
+    touch-action: pan-x;
+  }
+
+  .categories-bar-links::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .categories-bar-links::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+  }
+
+  .categories-bar-link {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    font-size: 0.85rem;
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+  }
+
+  .categories-bar-link:not(:last-child) {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 1rem;
+  }
+
+  .categories-bar-link:hover {
+    background: rgba(255, 255, 255, 0.28);
   }
 }

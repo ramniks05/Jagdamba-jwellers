@@ -318,11 +318,50 @@
 }
 
 @media (max-width: 768px) {
+  .product-detail {
+    padding: 1rem 1rem 2.5rem;
+  }
+
   .product-detail-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .product-detail-media {
     position: static;
+    max-width: 28rem;
+    margin: 0 auto;
+  }
+
+  .product-detail-info {
+    text-align: center;
+    max-width: 26rem;
+    margin: 0 auto;
+  }
+
+  .product-detail-back {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product-detail-category {
+    display: block;
+  }
+
+  .product-detail-actions {
+    max-width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-whatsapp,
+  .btn-share {
+    min-height: 48px;
+    border-radius: 999px;
+  }
+
+  .product-detail-thumbs {
+    justify-content: center;
   }
 }

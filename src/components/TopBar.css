@@ -2,6 +2,10 @@
   background: linear-gradient(90deg, var(--color-gold-dark) 0%, var(--color-gold) 100%);
   padding: 0.5rem 1.25rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .topbar-inner {
@@ -51,19 +55,41 @@
   max-width: 200px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .topbar {
-    padding: 0.5rem 1rem;
+    padding: 0.45rem 0;
+    overflow-x: hidden;
   }
 
   .topbar-inner {
-    gap: 0.5rem 1rem;
+    flex-wrap: nowrap;
     justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding-left: max(0.75rem, env(safe-area-inset-left));
+    padding-right: max(0.75rem, env(safe-area-inset-right));
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    touch-action: pan-x;
+  }
+
+  .topbar-inner::-webkit-scrollbar {
+    display: none;
   }
 
   .topbar-item {
-    font-size: 0.75rem;
-    padding: 0.2rem 0.4rem;
+    flex: 0 0 auto;
+    font-size: 0.72rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    max-width: none;
   }
 
   .topbar-icon {
@@ -72,12 +98,15 @@
   }
 
   .topbar-text {
-    max-width: 140px;
+    max-width: 11rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
 @media (max-width: 380px) {
   .topbar-text {
-    max-width: 100px;
+    max-width: 8.5rem;
   }
 }

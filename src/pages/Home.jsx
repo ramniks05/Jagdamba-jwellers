@@ -12,10 +12,22 @@ const defaultBanner = {
   subtitle: 'Handcrafted Jewelry for Every Occasion',
   image: HERO_FALLBACK_IMAGE,
   ctaText: 'Explore Collection',
-  ctaLink: '/products'
+  ctaLink: '/products',
+}
+
+/** Accepts raw 11-char id or youtu.be / youtube.com URLs */
+function getYoutubeVideoId(urlOrId) {
+  if (urlOrId == null || urlOrId === '') return null
+  const s = String(urlOrId).trim()
+  if (/^[a-zA-Z0-9_-]{11}$/.test(s)) return s
+  const m = s.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|watch\?v=|shorts\/))([a-zA-Z0-9_-]{11})/)
+  return m ? m[1] : null
 }
 
 const mainBanner = mainBannerData?.mainBanner ?? defaultBanner
+const heroYoutubeId =
+  getYoutubeVideoId(mainBanner?.youtubeVideoId) ||
+  getYoutubeVideoId(mainBanner?.youtubeUrl)
 const collectionBanners = mainBannerData?.collectionBanners ?? []
 const categoriesData = Array.isArray(categoriesDataImport) ? categoriesDataImport : []
 
@@ -25,22 +37,60 @@ export default function Home() {
     .filter((p) => p?.featured)
     .slice(0, 6)
   const [heroImage, setHeroImage] = useState(mainBanner?.image ?? HERO_FALLBACK_IMAGE)
+  /** Browsers block unmuted autoplay; after user taps "Sound on", reload embed with mute=0 */
+  const [heroSoundOn, setHeroSoundOn] = useState(false)
 
   const onHeroImageError = () => {
     setHeroImage(HERO_FALLBACK_IMAGE)
   }
 
+  const youtubeEmbedSrc = heroYoutubeId
+    ? `https://www.youtube.com/embed/${heroYoutubeId}?autoplay=1&mute=${heroSoundOn ? 0 : 1}&loop=1&playlist=${heroYoutubeId}&controls=1&rel=0&modestbranding=1&playsinline=1&iv_load_policy=3`
+    : null
+
   return (
-    <div className="home">
-      <section className="hero">
-        <div className="hero-bg">
-          <img
-            src={heroImage}
-            alt=""
-            referrerPolicy="no-referrer"
-            onError={onHeroImageError}
-          />
+    <>
+      {/* Hero outside .home so full-width video is never clipped by a parent */}
+      <section className={`hero ${heroYoutubeId ? 'hero--youtube' : ''}`}>
+        <div className={`hero-bg ${heroYoutubeId ? 'hero-bg--video' : ''}`}>
+          {heroYoutubeId && youtubeEmbedSrc ? (
+            <div className="hero-video-wrap">
+              <iframe
+                key={`${heroYoutubeId}-${heroSoundOn ? 'sound' : 'muted'}`}
+                src={youtubeEmbedSrc}
+                title="Featured video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="eager"
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
+            </div>
+          ) : (
+            <img
+              src={heroImage}
+              alt=""
+              referrerPolicy="no-referrer"
+              onError={onHeroImageError}
+            />
+          )}
           <div className="hero-overlay" />
+          {heroYoutubeId && !heroSoundOn && (
+            <button
+              type="button"
+              className="hero-sound-btn"
+              onClick={() => setHeroSoundOn(true)}
+              aria-label="Enable video sound"
+            >
+              <span className="hero-sound-btn-icon" aria-hidden>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                  <path d="M15.54 8.46a5 5 0 010 7.07" />
+                  <path d="M19.07 4.93a10 10 0 010 14.14" />
+                </svg>
+              </span>
+              Sound on
+            </button>
+          )}
         </div>
         <div className="hero-content">
           <p className="hero-subtitle">{mainBanner.subtitle}</p>
@@ -51,6 +101,7 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="home">
       <section className="section categories-section">
         <h2 className="section-title">Shop by Category</h2>
         <div className="categories-grid">
@@ -127,6 +178,7 @@ export default function Home() {
           View All Collections
         </Link>
       </section>
-    </div>
+      </div>
+    </>
   )
 }

@@ -3,6 +3,7 @@ import TopBar from './TopBar'
 import Header from './Header'
 import CategoriesBar from './CategoriesBar'
 import Footer from './Footer'
+import MobileBottomNav from './MobileBottomNav'
 
 export default function Layout() {
   return (
@@ -10,10 +11,11 @@ export default function Layout() {
       <TopBar />
       <Header />
       <CategoriesBar />
-      <main className="layout-main">
+      <main className="layout-main layout-main--app">
         <Outlet />
       </main>
       <Footer />
+      <MobileBottomNav />
     </>
   )
 }

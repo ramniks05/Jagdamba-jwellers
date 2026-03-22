@@ -46,31 +46,36 @@ function productToForm(p) {
     description: p.description || '',
     metal: p.metal || '',
     weight: p.weight || '',
+    groupImage: p.groupImage || '',
     featured: Boolean(p.featured),
   }
 }
 
+function str(v) {
+  return String(v ?? '').trim()
+}
+
 function formToPayload(form) {
-  const images = form.imagesText
+  const images = str(form.imagesText)
     .split(/[\n,]/)
     .map((s) => s.trim())
     .filter(Boolean)
   const price = Number(form.price)
   return {
-    name: form.name.trim(),
-    slug: form.slug.trim(),
-    category: form.category.trim(),
-    categoryName: form.categoryName.trim(),
-    currency: form.currency.trim() || '₹',
+    name: str(form.name),
+    slug: str(form.slug),
+    category: str(form.category),
+    categoryName: str(form.categoryName),
+    currency: str(form.currency) || '₹',
     price: Number.isFinite(price) ? price : 0,
-    image: form.image.trim(),
+    image: str(form.image),
     images,
-    videoUrl: form.videoUrl.trim() || null,
-    description: form.description.trim(),
-    metal: form.metal.trim(),
-    weight: form.weight.trim(),
-    groupImage: form.groupImage.trim() || null,
-    featured: form.featured,
+    videoUrl: str(form.videoUrl) || null,
+    description: str(form.description),
+    metal: str(form.metal),
+    weight: str(form.weight),
+    groupImage: str(form.groupImage) || null,
+    featured: Boolean(form.featured),
   }
 }
 

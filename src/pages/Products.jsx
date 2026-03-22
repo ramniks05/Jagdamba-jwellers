@@ -76,21 +76,23 @@ export default function Products() {
         <aside className="products-sidebar">
           <div className="sidebar-block">
             <h3>Category</h3>
-            <Link
-              to="/products"
-              className={`sidebar-link ${!categorySlug ? 'active' : ''}`}
-            >
-              All
-            </Link>
-            {categoriesData.map((cat) => (
+            <div className="sidebar-scroll">
               <Link
-                key={cat.id}
-                to={`/products?category=${cat.slug}`}
-                className={`sidebar-link ${categorySlug === cat.slug ? 'active' : ''}`}
+                to="/products"
+                className={`sidebar-link ${!categorySlug ? 'active' : ''}`}
               >
-                {cat.name}
+                All
               </Link>
-            ))}
+              {categoriesData.map((cat) => (
+                <Link
+                  key={cat.id}
+                  to={`/products?category=${cat.slug}`}
+                  className={`sidebar-link ${categorySlug === cat.slug ? 'active' : ''}`}
+                >
+                  {cat.name}
+                </Link>
+              ))}
+            </div>
           </div>
         </aside>
 
