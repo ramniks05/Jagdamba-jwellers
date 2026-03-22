@@ -1,0 +1,41 @@
+{
+  "_comment": "Replace image URLs with your own when ready. Using dummy placeholders so you can see layout.",
+  "mainBanner": {
+    "id": "main-1",
+    "title": "Elegance Redefined",
+    "subtitle": "Handcrafted Jewelry for Every Occasion",
+    "image": "https://cdn.caratlane.com/media/static/images/V4/2026/03_MAR/Banner/LD/02/Carousel_Hindi.jpg",
+    "ctaText": "Explore Collection",
+    "ctaLink": "/products"
+  },
+  "collectionBanners": [
+    {
+      "id": "col-1",
+      "title": "Rings",
+      "subtitle": "Symbol of Forever",
+      "image": "https://placehold.co/600x750/221c17/c9a227?text=Rings&font=serif",
+      "link": "/products?category=rings"
+    },
+    {
+      "id": "col-2",
+      "title": "Necklaces",
+      "subtitle": "Timeless Grace",
+      "image": "https://placehold.co/600x750/221c17/c9a227?text=Necklaces&font=serif",
+      "link": "/products?category=necklaces"
+    },
+    {
+      "id": "col-3",
+      "title": "Earrings",
+      "subtitle": "Sparkle & Shine",
+      "image": "https://placehold.co/600x750/221c17/c9a227?text=Earrings&font=serif",
+      "link": "/products?category=earrings"
+    },
+    {
+      "id": "col-4",
+      "title": "Bangles",
+      "subtitle": "Traditional Charm",
+      "image": "https://placehold.co/600x750/221c17/c9a227?text=Bangles&font=serif",
+      "link": "/products?category=bangles"
+    }
+  ]
+}

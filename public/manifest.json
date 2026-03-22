@@ -1,0 +1,10 @@
+{
+  "name": "Jagdamba Jewellers",
+  "short_name": "Jagdamba",
+  "description": "Exquisite jewelry collection - browse and enquire",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1510",
+  "theme_color": "#c9a227",
+  "orientation": "portrait-primary"
+}

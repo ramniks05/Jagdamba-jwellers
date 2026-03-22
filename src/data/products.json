@@ -1,0 +1,147 @@
+[
+  {
+    "id": "p1",
+    "name": "Celine Miracle Plate Diamond Ring",
+    "slug": "celine-miracle-late-diamond-ring",
+    "category": "rings",
+    "categoryName": "Rings",
+    "currency": "₹",
+    "price": 27089,
+    "image": "https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/R/JR10928-1YS300_11_listfront.jpg",
+    "images": [
+      "https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/R/JR10928-1YS300_11_listfront.jpg"
+    ],
+    "videoUrl": null,
+    "description": "Elegant solitaire ring with certified diamond. Perfect for engagement.",
+    "metal": "Gold",
+    "weight": "2.5g",
+    "featured": true
+  },
+  {
+    "id": "p2",
+    "name": "Pearl Drop Earrings",
+    "slug": "pearl-drop-earrings",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "price": 8500,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+2&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+2&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Graceful pearl drop earrings for daily wear and special occasions.",
+    "metal": "Silver",
+    "weight": "4g",
+    "featured": true
+  },
+  {
+    "id": "p3",
+    "name": "Kundan Necklace Set",
+    "slug": "kundan-necklace-set",
+    "category": "necklaces",
+    "categoryName": "Necklaces",
+    "price": 35000,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+3&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+3a&font=serif",
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+3b&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Traditional Kundan necklace with matching earrings. Wedding special.",
+    "metal": "Gold",
+    "weight": "45g",
+    "featured": true
+  },
+  {
+    "id": "p4",
+    "name": "Gold Bangle Pair",
+    "slug": "gold-bangle-pair",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "price": 28000,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+4&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+4&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Classic gold bangles, ideal for festivals and weddings.",
+    "metal": "22K Gold",
+    "weight": "32g",
+    "featured": false
+  },
+  {
+    "id": "p5",
+    "name": "Emerald Pendant",
+    "slug": "emerald-pendant",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "price": 22000,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+5&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+5&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Stunning emerald pendant on gold chain.",
+    "metal": "Gold",
+    "weight": "8g",
+    "featured": true
+  },
+  {
+    "id": "p6",
+    "name": "Tennis Bracelet",
+    "slug": "tennis-bracelet",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "price": 52000,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+6&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+6&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Diamond tennis bracelet for a timeless look.",
+    "metal": "White Gold",
+    "weight": "12g",
+    "featured": false
+  },
+  {
+    "id": "p7",
+    "name": "Rose Gold Cocktail Ring",
+    "slug": "rose-gold-cocktail-ring",
+    "category": "rings",
+    "categoryName": "Rings",
+    "price": 12500,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+7&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+7&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Statement rose gold ring with cubic zirconia.",
+    "metal": "Rose Gold",
+    "weight": "3g",
+    "featured": false
+  },
+  {
+    "id": "p8",
+    "name": "Jhumka Earrings",
+    "slug": "jhumka-earrings",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "price": 6500,
+    "currency": "₹",
+    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+8&font=serif",
+    "images": [
+      "https://placehold.co/600x600/2d2620/c9a227?text=Product+8&font=serif"
+    ],
+    "videoUrl": null,
+    "description": "Traditional jhumka design in gold plating.",
+    "metal": "Gold Plated",
+    "weight": "6g",
+    "featured": false
+  }
+]

@@ -1,0 +1,94 @@
+:root {
+  /* Light theme - white background, gold accents */
+  --color-bg: #ffffff;
+  --color-bg-elevated: #fafafa;
+  --color-bg-card: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-gold: #b8860b;
+  --color-gold-light: #c9a227;
+  --color-gold-dark: #8b6914;
+  --color-cream: #faf8f5;
+  --color-cream-muted: #e8e4df;
+  --color-text: #1a1a1a;
+  --color-text-muted: #5c5c5c;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --shadow-glow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --radius: 12px;
+  --radius-lg: 20px;
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: env(safe-area-inset-bottom);
+  min-height: 100dvh;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-main {
+  flex: 1;
+  min-height: 50vh;
+}
+
+a {
+  color: var(--color-gold);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-gold-light);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Utility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

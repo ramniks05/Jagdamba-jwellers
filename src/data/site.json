@@ -1,0 +1,15 @@
+{
+  "footer": {
+    "tagline": "Crafting elegance since generations.",
+    "primaryMenu": [
+      { "label": "Home", "path": "/" },
+      { "label": "Collections", "path": "/products" }
+    ],
+    "contact": {
+      "address": "123 Jewellery Lane, Main Market, City - 110001",
+      "email": "contact@jagdambajewellers.com",
+      "mobile": "+91 98765 43210",
+      "whatsappNumber": "919876543210"
+    }
+  }
+}

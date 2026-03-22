@@ -1,0 +1,25 @@
+.not-found {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  color: var(--color-gold);
+  margin-bottom: 0.5rem;
+}
+
+.not-found p {
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.not-found-link {
+  font-weight: 600;
+}

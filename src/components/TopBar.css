@@ -1,0 +1,83 @@
+.topbar {
+  background: linear-gradient(90deg, var(--color-gold-dark) 0%, var(--color-gold) 100%);
+  padding: 0.5rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.topbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.topbar-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.2s, opacity 0.2s, transform 0.2s;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.topbar-item:hover {
+  color: #fff;
+  opacity: 0.95;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.topbar-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.topbar-whatsapp .topbar-icon {
+  color: #fff;
+}
+
+.topbar-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+@media (max-width: 640px) {
+  .topbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .topbar-inner {
+    gap: 0.5rem 1rem;
+    justify-content: flex-start;
+  }
+
+  .topbar-item {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .topbar-icon {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  .topbar-text {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 380px) {
+  .topbar-text {
+    max-width: 100px;
+  }
+}
