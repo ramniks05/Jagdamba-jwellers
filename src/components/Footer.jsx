@@ -56,6 +56,17 @@ export default function Footer() {
               <span className="logo-sub">Jewellers</span>
             </Link>
             <p className="footer-tagline">{footer.tagline}</p>
+            {contact.mapEmbedSrc ? (
+              <div className="footer-map-wrap">
+                <iframe
+                  src={contact.mapEmbedSrc}
+                  title="Jagdamba Jewellers on Google Maps"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                />
+              </div>
+            ) : null}
           </div>
 
           <div className="footer-col">
@@ -80,7 +91,7 @@ export default function Footer() {
           <div className="footer-col footer-contact">
             <h4 className="footer-heading">Contact us</h4>
             <address className="footer-address">
-              <p>{contact.address}</p>
+              <p className="footer-address-text">{contact.address}</p>
               <p>
                 <a href={`mailto:${contact.email}`}><MailIcon /> {contact.email}</a>
               </p>

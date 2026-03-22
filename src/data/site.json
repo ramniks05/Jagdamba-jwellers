@@ -6,10 +6,11 @@
       { "label": "Collections", "path": "/products" }
     ],
     "contact": {
-      "address": "123 Jewellery Lane, Main Market, City - 110001",
+      "address": "Shop No. 6b, ground floor, Galaxy Shoppe Market, Sector 16C, Gaur City 2, Greater Noida, Ghaziabad, Uttar Pradesh 201009",
       "email": "contact@jagdambajewellers.com",
-      "mobile": "+91 98765 43210",
-      "whatsappNumber": "919876543210"
+      "mobile": "+91 98919 48751",
+      "whatsappNumber": "919891948751",
+      "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112074.94086976853!2d77.2820048433594!3d28.619513300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce442d4000001%3A0x87ed2514370e8a39!2sJagdamba%20Jewellers!5e0!3m2!1sen!2sin!4v1774169981489!5m2!1sen!2sin"
     }
   }
 }
