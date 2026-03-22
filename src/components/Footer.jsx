@@ -69,7 +69,7 @@ export default function Footer() {
             ) : null}
           </div>
 
-          <div className="footer-col">
+          <div className="footer-col footer-col-shop">
             <h4 className="footer-heading">Shop</h4>
             <nav className="footer-nav">
               <Link to="/products">All jewellery</Link>

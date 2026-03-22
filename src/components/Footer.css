@@ -348,6 +348,13 @@
   }
 }
 
+/* Categories duplicate top nav — hide on phones/small screens */
+@media (max-width: 768px) {
+  .footer-col-shop {
+    display: none;
+  }
+}
+
 @media (max-width: 560px) {
   .footer-inner {
     grid-template-columns: 1fr;
