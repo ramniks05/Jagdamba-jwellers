@@ -3,6 +3,8 @@
   { "id": "necklaces", "name": "Necklaces", "slug": "necklaces", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Necklaces&font=serif", "productCount": 8 },
   { "id": "earrings", "name": "Earrings", "slug": "earrings", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Earrings&font=serif", "productCount": 15 },
   { "id": "bangles", "name": "Bangles", "slug": "bangles", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Bangles&font=serif", "productCount": 10 },
+  { "id": "chains", "name": "Chain", "slug": "chains", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Chain&font=serif", "productCount": 9 },
+  { "id": "kadas", "name": "Kada", "slug": "kadas", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Kada&font=serif", "productCount": 5 },
   { "id": "pendants", "name": "Pendants", "slug": "pendants", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Pendants&font=serif", "productCount": 6 },
   { "id": "bracelets", "name": "Bracelets", "slug": "bracelets", "image": "https://placehold.co/400x400/221c17/e5c76b?text=Bracelets&font=serif", "productCount": 7 }
 ]

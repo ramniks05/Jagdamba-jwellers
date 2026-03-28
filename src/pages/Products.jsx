@@ -7,8 +7,6 @@ import './Products.css'
 
 const SORT_OPTIONS = [
   { value: 'featured', label: 'Featured' },
-  { value: 'price-asc', label: 'Price: Low to High' },
-  { value: 'price-desc', label: 'Price: High to Low' },
   { value: 'name', label: 'Name A–Z' },
 ]
 
@@ -31,9 +29,7 @@ export default function Products() {
           (p.description || '').toLowerCase().includes(searchQ)
       )
     }
-    if (sort === 'price-asc') list.sort((a, b) => a.price - b.price)
-    else if (sort === 'price-desc') list.sort((a, b) => b.price - a.price)
-    else if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name))
+    if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name))
     else list.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0))
     return list
   }, [categorySlug, searchQ, sort, productsData])

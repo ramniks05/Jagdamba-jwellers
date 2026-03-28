@@ -37,15 +37,13 @@ export default function Home() {
     .filter((p) => p?.featured)
     .slice(0, 6)
   const [heroImage, setHeroImage] = useState(mainBanner?.image ?? HERO_FALLBACK_IMAGE)
-  /** Browsers block unmuted autoplay; after user taps "Sound on", reload embed with mute=0 */
-  const [heroSoundOn, setHeroSoundOn] = useState(false)
 
   const onHeroImageError = () => {
     setHeroImage(HERO_FALLBACK_IMAGE)
   }
 
   const youtubeEmbedSrc = heroYoutubeId
-    ? `https://www.youtube.com/embed/${heroYoutubeId}?autoplay=1&mute=${heroSoundOn ? 0 : 1}&loop=1&playlist=${heroYoutubeId}&controls=1&rel=0&modestbranding=1&playsinline=1&iv_load_policy=3`
+    ? `https://www.youtube.com/embed/${heroYoutubeId}?autoplay=1&mute=1&loop=1&playlist=${heroYoutubeId}&controls=0&rel=0&modestbranding=1&playsinline=1&iv_load_policy=3`
     : null
 
   return (
@@ -56,7 +54,7 @@ export default function Home() {
           {heroYoutubeId && youtubeEmbedSrc ? (
             <div className="hero-video-wrap">
               <iframe
-                key={`${heroYoutubeId}-${heroSoundOn ? 'sound' : 'muted'}`}
+                key={heroYoutubeId}
                 src={youtubeEmbedSrc}
                 title="Featured video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -74,36 +72,21 @@ export default function Home() {
             />
           )}
           <div className="hero-overlay" />
-          {heroYoutubeId && !heroSoundOn && (
-            <button
-              type="button"
-              className="hero-sound-btn"
-              onClick={() => setHeroSoundOn(true)}
-              aria-label="Enable video sound"
-            >
-              <span className="hero-sound-btn-icon" aria-hidden>
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M11 5L6 9H2v6h4l5 4V5z" />
-                  <path d="M15.54 8.46a5 5 0 010 7.07" />
-                  <path d="M19.07 4.93a10 10 0 010 14.14" />
-                </svg>
-              </span>
-              Sound on
-            </button>
-          )}
         </div>
-        <div className="hero-content">
-          <p className="hero-subtitle">{mainBanner.subtitle}</p>
-          <h1 className="hero-title">{mainBanner.title}</h1>
-          <Link to={mainBanner.ctaLink} className="hero-cta">
-            {mainBanner.ctaText}
-          </Link>
-        </div>
+        {!heroYoutubeId && (
+          <div className="hero-content">
+            <p className="hero-subtitle">{mainBanner.subtitle}</p>
+            <h1 className="hero-title">{mainBanner.title}</h1>
+            <Link to={mainBanner.ctaLink} className="hero-cta">
+              {mainBanner.ctaText}
+            </Link>
+          </div>
+        )}
       </section>
 
       <div className="home">
       <section className="section categories-section">
-        <h2 className="section-title">Shop by Category</h2>
+        <h2 className="section-title">Explore Design by Category</h2>
         <div className="categories-grid">
           {categoriesData.map((cat) => (
             <Link
@@ -166,9 +149,6 @@ export default function Home() {
                 <div className="product-card-info">
                   <span className="product-card-category">{product.categoryName}</span>
                   <h3 className="product-card-name">{product.name}</h3>
-                  <p className="product-card-price">
-                    {product.currency} {Number(product?.price ?? 0).toLocaleString('en-IN')}
-                  </p>
                 </div>
               </Link>
             ))}

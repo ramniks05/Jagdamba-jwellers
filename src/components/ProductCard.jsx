@@ -58,9 +58,6 @@ export default function ProductCard({ product }) {
       <div className="product-card-info">
         <span className="product-card-category">{product.categoryName}</span>
         <h3 className="product-card-name">{product.name}</h3>
-        <p className="product-card-price">
-          {product.currency} {product.price.toLocaleString('en-IN')}
-        </p>
       </div>
     </Link>
   )

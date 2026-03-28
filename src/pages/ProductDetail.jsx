@@ -128,14 +128,14 @@ export default function ProductDetail() {
   if (!product) return <NotFound />
 
   const productUrl = typeof window !== 'undefined' ? window.location.href : ''
-  const enquiryText = `Hi! I am interested in this product:\n\n*${product.name}*\n${product.currency} ${product.price.toLocaleString('en-IN')}\n\nProduct link: ${productUrl}`
+  const enquiryText = `Hi! I am interested in this product:\n\n*${product.name}*\n\nProduct link: ${productUrl}`
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(enquiryText)}`
 
   const shareLink = () => {
     if (navigator.share) {
       navigator.share({
         title: product.name,
-        text: `${product.name} - ${product.currency} ${product.price.toLocaleString('en-IN')}`,
+        text: `${product.name}`,
         url: productUrl,
       }).catch(() => {})
     } else {
@@ -198,9 +198,6 @@ export default function ProductDetail() {
           </Link>
           <span className="product-detail-category">{product.categoryName}</span>
           <h1 className="product-detail-name">{product.name}</h1>
-          <p className="product-detail-price">
-            {product.currency} {product.price.toLocaleString('en-IN')}
-          </p>
           <p className="product-detail-desc">{product.description}</p>
           {product.metal && (
             <p className="product-detail-meta">
