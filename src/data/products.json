@@ -7,9 +7,9 @@
     "categoryName": "Rings",
     "currency": "₹",
     "price": 27089,
-    "image": "/product-images/JR10928-1YS300_11_listfront.jpg",
+    "image": "/product-images/ring/JR10928-1YS300_11_listfront.jpg",
     "images": [
-      "https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/R/JR10928-1YS300_11_listfront.jpg"
+      "/product-images/ring/JR10928-1YS300_11_listfront.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -42,14 +42,14 @@
     "slug": "kundan-necklace-set",
     "category": "necklaces",
     "categoryName": "Necklaces",
-    "price": 35000,
     "currency": "₹",
-    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+3&font=serif",
+    "price": 35000,
+    "image": "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg",
     "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+3a&font=serif",
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+3b&font=serif"
+      "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg"
     ],
     "videoUrl": null,
+    "groupImage": null,
     "description": "Traditional Kundan necklace with matching earrings. Wedding special.",
     "metal": "Gold",
     "weight": "45g",
@@ -117,9 +117,9 @@
     "categoryName": "Rings",
     "currency": "₹",
     "price": 12500,
-    "image": "/product-images/ring.jpg",
+    "image": "/product-images/ring/ring.jpg",
     "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+7&font=serif"
+      "/product-images/ring/ring.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -154,9 +154,9 @@
     "categoryName": "Rings",
     "currency": "₹",
     "price": 86999,
-    "image": "/product-images/ring-3.webp",
+    "image": "/product-images/ring/ring-3.webp",
     "images": [
-      "/product-images/ring-3.webp"
+      "/product-images/ring/ring-3.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -173,13 +173,146 @@
     "categoryName": "Rings",
     "currency": "₹",
     "price": 180000,
-    "image": "/product-images/omring.webp",
+    "image": "/product-images/ring/omring.webp",
     "images": [
-      "/product-images/omring.webp"
+      "/product-images/ring/omring.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
     "description": "Om Ring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774800161274",
+    "name": "RG111",
+    "slug": "rg111",
+    "category": "rings",
+    "categoryName": "Rings",
+    "currency": "₹",
+    "price": 30000,
+    "image": "/product-images/ring/RG111.webp",
+    "images": [
+      "/product-images/ring/RG111.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "ring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774800392826",
+    "name": "Couple Ring",
+    "slug": "couple-ring",
+    "category": "rings",
+    "categoryName": "Rings",
+    "currency": "₹",
+    "price": 119999,
+    "image": "/product-images/ring/couplering.jpg",
+    "images": [
+      "/product-images/ring/couplering.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "ring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774800724896",
+    "name": "Necklaces Design -1",
+    "slug": "necklaces-design-1",
+    "category": "necklaces",
+    "categoryName": "Necklaces",
+    "currency": "₹",
+    "price": 151999,
+    "image": "/product-images\\necklaces\\5150912ALABA00_1.webp",
+    "images": [
+      "/product-images\\necklaces\\5150912ALABA00_1.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "necklaces",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774800866977",
+    "name": "Necklaces Design-2",
+    "slug": "necklaces-design-2",
+    "category": "necklaces",
+    "categoryName": "Necklaces",
+    "currency": "₹",
+    "price": 200000,
+    "image": "\\product-images\\necklaces\\511251NLFAA00_1.webp",
+    "images": [
+      "\\product-images\\necklaces\\511251NLFAA00_1.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Necklaces",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774801010783",
+    "name": "Necklaces Design-4",
+    "slug": "necklaces-design-4",
+    "category": "necklaces",
+    "categoryName": "Necklaces",
+    "currency": "₹",
+    "price": 300000,
+    "image": "\\product-images\\necklaces\\-1exklp9d.avif",
+    "images": [
+      "\\product-images\\necklaces\\-1exklp9d.avif"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Neckalaces",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774801159242",
+    "name": "Necklaces Design 5",
+    "slug": "necklaces-design-5",
+    "category": "necklaces",
+    "categoryName": "Necklaces",
+    "currency": "₹",
+    "price": 200000,
+    "image": "\\product-images\\necklaces\\plain-gold-lord-lakshmi-design-necklace.webp",
+    "images": [
+      "\\product-images\\necklaces\\plain-gold-lord-lakshmi-design-necklace.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "necklaces",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774801390445",
+    "name": "Necklaces Design 3",
+    "slug": "necklaces-design-3",
+    "category": "necklaces",
+    "categoryName": "Necklaces",
+    "currency": "₹",
+    "price": 300000,
+    "image": "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg",
+    "images": [
+      "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "necklaces",
     "metal": "",
     "weight": "",
     "featured": false
