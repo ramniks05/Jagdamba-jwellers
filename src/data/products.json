@@ -20,17 +20,18 @@
   },
   {
     "id": "p2",
-    "name": "Pearl Drop Earrings",
+    "name": "Earring Design -2",
     "slug": "pearl-drop-earrings",
     "category": "earrings",
     "categoryName": "Earrings",
-    "price": 8500,
     "currency": "₹",
-    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+2&font=serif",
+    "price": 8500,
+    "image": "public\\product-images\\earring\\earring-design2.webp",
     "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+2&font=serif"
+      "public\\product-images\\earring\\earring-design2.webp"
     ],
     "videoUrl": null,
+    "groupImage": null,
     "description": "Graceful pearl drop earrings for daily wear and special occasions.",
     "metal": "Silver",
     "weight": "4g",
@@ -130,17 +131,18 @@
   },
   {
     "id": "p8",
-    "name": "Jhumka Earrings",
+    "name": "Earring Design -1",
     "slug": "jhumka-earrings",
     "category": "earrings",
     "categoryName": "Earrings",
-    "price": 6500,
     "currency": "₹",
-    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+8&font=serif",
+    "price": 6500,
+    "image": "\\product-images\\earring\\earring-design1.jpg",
     "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+8&font=serif"
+      "\\product-images\\earring\\earring-design1.jpg"
     ],
     "videoUrl": null,
+    "groupImage": null,
     "description": "Traditional jhumka design in gold plating.",
     "metal": "Gold Plated",
     "weight": "6g",
@@ -313,6 +315,158 @@
     "videoUrl": null,
     "groupImage": null,
     "description": "necklaces",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888584675",
+    "name": "Earring Design -3",
+    "slug": "earring-design-3",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 9995,
+    "image": "\\product-images\\earring\\earring-design3.webp",
+    "images": [
+      "\\product-images\\earring\\earring-design3.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "earing",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888665130",
+    "name": "Earring Design -4",
+    "slug": "earring-design-4",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 19999,
+    "image": "\\product-images\\earring\\earring-design4.webp",
+    "images": [
+      "\\product-images\\earring\\earring-design4.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888718054",
+    "name": "Earring Design -5",
+    "slug": "earring-design-5",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 19999,
+    "image": "\\product-images\\earring\\earring-design5.jpg",
+    "images": [
+      "\\product-images\\earring\\earring-design5.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888768797",
+    "name": "Earring Design -6",
+    "slug": "earring-design-6",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 29999,
+    "image": "\\product-images\\earring\\earring-design6.jpg",
+    "images": [
+      "\\product-images\\earring\\earring-design6.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888817070",
+    "name": "Earring Design -7",
+    "slug": "earring-design-7",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 50000,
+    "image": "\\product-images\\earring\\earring-design7.webp",
+    "images": [
+      "\\product-images\\earring\\earring-design7.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888865233",
+    "name": "Earring Design -8",
+    "slug": "earring-design-8",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 9999,
+    "image": "\\product-images\\earring\\earring-design8.webp",
+    "images": [
+      "\\product-images\\earring\\earring-design8.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888908531",
+    "name": "Earring Design -9",
+    "slug": "earring-design-9",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 25000,
+    "image": "\\product-images\\earring\\earring-design9.webp",
+    "images": [
+      "\\product-images\\earring\\earring-design9.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1774888962770",
+    "name": "Earring Design -10",
+    "slug": "earring-design-10",
+    "category": "earrings",
+    "categoryName": "Earrings",
+    "currency": "₹",
+    "price": 30000,
+    "image": "\\product-images\\earring\\earring-design10.jpg",
+    "images": [
+      "\\product-images\\earring\\earring-design10.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Earring",
     "metal": "",
     "weight": "",
     "featured": false
