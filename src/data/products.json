@@ -57,60 +57,6 @@
     "featured": true
   },
   {
-    "id": "p4",
-    "name": "Gold Bangle Pair",
-    "slug": "gold-bangle-pair",
-    "category": "bangles",
-    "categoryName": "Bangles",
-    "price": 28000,
-    "currency": "₹",
-    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+4&font=serif",
-    "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+4&font=serif"
-    ],
-    "videoUrl": null,
-    "description": "Classic gold bangles, ideal for festivals and weddings.",
-    "metal": "22K Gold",
-    "weight": "32g",
-    "featured": false
-  },
-  {
-    "id": "p5",
-    "name": "Emerald Pendant",
-    "slug": "emerald-pendant",
-    "category": "pendants",
-    "categoryName": "Pendants",
-    "price": 22000,
-    "currency": "₹",
-    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+5&font=serif",
-    "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+5&font=serif"
-    ],
-    "videoUrl": null,
-    "description": "Stunning emerald pendant on gold chain.",
-    "metal": "Gold",
-    "weight": "8g",
-    "featured": true
-  },
-  {
-    "id": "p6",
-    "name": "Tennis Bracelet",
-    "slug": "tennis-bracelet",
-    "category": "bracelets",
-    "categoryName": "Bracelets",
-    "price": 52000,
-    "currency": "₹",
-    "image": "https://placehold.co/600x600/2d2620/c9a227?text=Product+6&font=serif",
-    "images": [
-      "https://placehold.co/600x600/2d2620/c9a227?text=Product+6&font=serif"
-    ],
-    "videoUrl": null,
-    "description": "Diamond tennis bracelet for a timeless look.",
-    "metal": "White Gold",
-    "weight": "12g",
-    "featured": false
-  },
-  {
     "id": "p7",
     "name": "Rose Gold Cocktail Ring",
     "slug": "rose-gold-cocktail-ring",
@@ -467,6 +413,861 @@
     "videoUrl": null,
     "groupImage": null,
     "description": "Earring",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000001",
+    "name": "Bangles Design -1",
+    "slug": "bangles-design-1",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 18000,
+    "image": "/product-images/bangles/bangles-design-1.jpg",
+    "images": [
+      "/product-images/bangles/bangles-design-1.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000002",
+    "name": "Bangles Design -2",
+    "slug": "bangles-design-2",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 22000,
+    "image": "/product-images/bangles/bangles-design-2.webp",
+    "images": [
+      "/product-images/bangles/bangles-design-2.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000003",
+    "name": "Bangles Design -3",
+    "slug": "bangles-design-3",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 25000,
+    "image": "/product-images/bangles/bangles-design-3.webp",
+    "images": [
+      "/product-images/bangles/bangles-design-3.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000004",
+    "name": "Bangles Design -4",
+    "slug": "bangles-design-4",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 27000,
+    "image": "/product-images/bangles/bangles-design-4.jpg",
+    "images": [
+      "/product-images/bangles/bangles-design-4.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000005",
+    "name": "Bangles Design -5",
+    "slug": "bangles-design-5",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 29000,
+    "image": "/product-images/bangles/bangles-design-5.jpg",
+    "images": [
+      "/product-images/bangles/bangles-design-5.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000006",
+    "name": "Bangles Design -6",
+    "slug": "bangles-design-6",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 31000,
+    "image": "/product-images/bangles/bangles-design-6.jpg",
+    "images": [
+      "/product-images/bangles/bangles-design-6.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000007",
+    "name": "Bangles Design -7",
+    "slug": "bangles-design-7",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 33000,
+    "image": "/product-images/bangles/bangles-design-7.jpg",
+    "images": [
+      "/product-images/bangles/bangles-design-7.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000008",
+    "name": "Bangles Design -8",
+    "slug": "bangles-design-8",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 35000,
+    "image": "/product-images/bangles/bangles-design-8.webp",
+    "images": [
+      "/product-images/bangles/bangles-design-8.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000009",
+    "name": "Bangles Design -9",
+    "slug": "bangles-design-9",
+    "category": "bangles",
+    "categoryName": "Bangles",
+    "currency": "₹",
+    "price": 38000,
+    "image": "/product-images/bangles/bangles-design-9.webp",
+    "images": [
+      "/product-images/bangles/bangles-design-9.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bangles",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000010",
+    "name": "Chain Design -1",
+    "slug": "chain-design-1",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 17000,
+    "image": "/product-images/chains/chain-desigin-1.webp",
+    "images": [
+      "/product-images/chains/chain-desigin-1.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000011",
+    "name": "Chain Design -2",
+    "slug": "chain-design-2",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 19000,
+    "image": "/product-images/chains/chain-design-2.webp",
+    "images": [
+      "/product-images/chains/chain-design-2.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000012",
+    "name": "Chain Design -3",
+    "slug": "chain-design-3",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 21000,
+    "image": "/product-images/chains/chain-design-3.webp",
+    "images": [
+      "/product-images/chains/chain-design-3.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000013",
+    "name": "Chain Design -4",
+    "slug": "chain-design-4",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 23000,
+    "image": "/product-images/chains/chain-design-4.jpg",
+    "images": [
+      "/product-images/chains/chain-design-4.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000014",
+    "name": "Chain Design -5",
+    "slug": "chain-design-5",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 25000,
+    "image": "/product-images/chains/chain-design-5.jpg",
+    "images": [
+      "/product-images/chains/chain-design-5.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000015",
+    "name": "Chain Design -6",
+    "slug": "chain-design-6",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 27000,
+    "image": "/product-images/chains/chain-design-6.jpg",
+    "images": [
+      "/product-images/chains/chain-design-6.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000016",
+    "name": "Chain Design -7",
+    "slug": "chain-design-7",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 29000,
+    "image": "/product-images/chains/chain-design-7.jpg",
+    "images": [
+      "/product-images/chains/chain-design-7.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000017",
+    "name": "Chain Design -8",
+    "slug": "chain-design-8",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 31000,
+    "image": "/product-images/chains/chain-design-8.jpg",
+    "images": [
+      "/product-images/chains/chain-design-8.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000018",
+    "name": "Chain Design -9",
+    "slug": "chain-design-9",
+    "category": "chains",
+    "categoryName": "Chain",
+    "currency": "₹",
+    "price": 33000,
+    "image": "/product-images/chains/chain-design-9.jpg",
+    "images": [
+      "/product-images/chains/chain-design-9.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Chain",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000019",
+    "name": "Kada Design -1",
+    "slug": "kada-design-1",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 21000,
+    "image": "/product-images/kadas/kada-design-1.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-1.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000020",
+    "name": "Kada Design -2",
+    "slug": "kada-design-2",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 23000,
+    "image": "/product-images/kadas/kada-design-2.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-2.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000021",
+    "name": "Kada Design -3",
+    "slug": "kada-design-3",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 25000,
+    "image": "/product-images/kadas/kada-design-3.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-3.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000022",
+    "name": "Kada Design -4",
+    "slug": "kada-design-4",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 27000,
+    "image": "/product-images/kadas/kada-design-4.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-4.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000023",
+    "name": "Kada Design -5",
+    "slug": "kada-design-5",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 29000,
+    "image": "/product-images/kadas/kada-design-5.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-5.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000024",
+    "name": "Kada Design -6",
+    "slug": "kada-design-6",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 31000,
+    "image": "/product-images/kadas/kada-design-6.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-6.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000025",
+    "name": "Kada Design -7",
+    "slug": "kada-design-7",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 33000,
+    "image": "/product-images/kadas/kada-design-7.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-7.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000026",
+    "name": "Kada Design -8",
+    "slug": "kada-design-8",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 35000,
+    "image": "/product-images/kadas/kada-design-8.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-8.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000027",
+    "name": "Kada Design -9",
+    "slug": "kada-design-9",
+    "category": "kadas",
+    "categoryName": "Kada",
+    "currency": "₹",
+    "price": 37000,
+    "image": "/product-images/kadas/kada-design-9.jpg",
+    "images": [
+      "/product-images/kadas/kada-design-9.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Kada",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000028",
+    "name": "Pendant Design -1",
+    "slug": "pendant-design-1",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 12000,
+    "image": "/product-images/pendants/pendant-design-1.webp",
+    "images": [
+      "/product-images/pendants/pendant-design-1.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000029",
+    "name": "Pendant Design -2",
+    "slug": "pendant-design-2",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 14000,
+    "image": "/product-images/pendants/pendant-design-2.jpg",
+    "images": [
+      "/product-images/pendants/pendant-design-2.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000030",
+    "name": "Pendant Design -3",
+    "slug": "pendant-design-3",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 16000,
+    "image": "/product-images/pendants/pendant-design-3.jpg",
+    "images": [
+      "/product-images/pendants/pendant-design-3.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000031",
+    "name": "Pendant Design -4",
+    "slug": "pendant-design-4",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 18000,
+    "image": "/product-images/pendants/pendant-design-4.jpg",
+    "images": [
+      "/product-images/pendants/pendant-design-4.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000032",
+    "name": "Pendant Design -5",
+    "slug": "pendant-design-5",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 20000,
+    "image": "/product-images/pendants/pendant-design-5.jpg",
+    "images": [
+      "/product-images/pendants/pendant-design-5.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000033",
+    "name": "Pendant Design -6",
+    "slug": "pendant-design-6",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 22000,
+    "image": "/product-images/pendants/pendant-design-6.jpg",
+    "images": [
+      "/product-images/pendants/pendant-design-6.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000034",
+    "name": "Pendant Design -7",
+    "slug": "pendant-design-7",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 24000,
+    "image": "/product-images/pendants/pendant-design-7.webp",
+    "images": [
+      "/product-images/pendants/pendant-design-7.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000035",
+    "name": "Pendant Design -8",
+    "slug": "pendant-design-8",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 26000,
+    "image": "/product-images/pendants/pendant-design-8.webp",
+    "images": [
+      "/product-images/pendants/pendant-design-8.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000036",
+    "name": "Pendant Design -9",
+    "slug": "pendant-design-9",
+    "category": "pendants",
+    "categoryName": "Pendants",
+    "currency": "₹",
+    "price": 28000,
+    "image": "/product-images/pendants/pendant-design-9.webp",
+    "images": [
+      "/product-images/pendants/pendant-design-9.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Pendant",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000037",
+    "name": "Bracelet Design -1",
+    "slug": "bracelet-design-1",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 15000,
+    "image": "/product-images/bracelets/bracelet-design-1.webp",
+    "images": [
+      "/product-images/bracelets/bracelet-design-1.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000038",
+    "name": "Bracelet Design -2",
+    "slug": "bracelet-design-2",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 17000,
+    "image": "/product-images/bracelets/bracelet-design-2.webp",
+    "images": [
+      "/product-images/bracelets/bracelet-design-2.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000039",
+    "name": "Bracelet Design -3",
+    "slug": "bracelet-design-3",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 19000,
+    "image": "/product-images/bracelets/bracelet-design-3.webp",
+    "images": [
+      "/product-images/bracelets/bracelet-design-3.webp"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000040",
+    "name": "Bracelet Design -4",
+    "slug": "bracelet-design-4",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 21000,
+    "image": "/product-images/bracelets/bracelet-design-4.jpg",
+    "images": [
+      "/product-images/bracelets/bracelet-design-4.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000041",
+    "name": "Bracelet Design -5",
+    "slug": "bracelet-design-5",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 23000,
+    "image": "/product-images/bracelets/bracelet-design-5.jpg",
+    "images": [
+      "/product-images/bracelets/bracelet-design-5.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000042",
+    "name": "Bracelet Design -6",
+    "slug": "bracelet-design-6",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 25000,
+    "image": "/product-images/bracelets/bracelet-design-6.jpg",
+    "images": [
+      "/product-images/bracelets/bracelet-design-6.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000043",
+    "name": "Bracelet Design -7",
+    "slug": "bracelet-design-7",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 27000,
+    "image": "/product-images/bracelets/bracelet-design-7.jpg",
+    "images": [
+      "/product-images/bracelets/bracelet-design-7.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000044",
+    "name": "Bracelet Design -8",
+    "slug": "bracelet-design-8",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 29000,
+    "image": "/product-images/bracelets/bracelet-design-8.jpg",
+    "images": [
+      "/product-images/bracelets/bracelet-design-8.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
+    "metal": "",
+    "weight": "",
+    "featured": false
+  },
+  {
+    "id": "p1775350000045",
+    "name": "Bracelet Design -9",
+    "slug": "bracelet-design-9",
+    "category": "bracelets",
+    "categoryName": "Bracelets",
+    "currency": "₹",
+    "price": 31000,
+    "image": "/product-images/bracelets/bracelet-design-9.jpg",
+    "images": [
+      "/product-images/bracelets/bracelet-design-9.jpg"
+    ],
+    "videoUrl": null,
+    "groupImage": null,
+    "description": "Bracelet",
     "metal": "",
     "weight": "",
     "featured": false
