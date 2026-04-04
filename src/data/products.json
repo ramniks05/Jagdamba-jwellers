@@ -26,9 +26,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 8500,
-    "image": "public\\product-images\\earring\\earring-design2.webp",
+    "image": "/product-images/earring/earring-design-2.webp",
     "images": [
-      "public\\product-images\\earring\\earring-design2.webp"
+      "/product-images/earring/earring-design-2.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -45,9 +45,9 @@
     "categoryName": "Necklaces",
     "currency": "₹",
     "price": 35000,
-    "image": "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg",
+    "image": "/product-images/necklaces/1734096124_09304967ec20255129f0.jpg",
     "images": [
-      "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg"
+      "/product-images/necklaces/1734096124_09304967ec20255129f0.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -83,9 +83,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 6500,
-    "image": "\\product-images\\earring\\earring-design1.jpg",
+    "image": "/product-images/earring/earring-design1.jpg",
     "images": [
-      "\\product-images\\earring\\earring-design1.jpg"
+      "/product-images/earring/earring-design1.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -178,9 +178,9 @@
     "categoryName": "Necklaces",
     "currency": "₹",
     "price": 151999,
-    "image": "/product-images\\necklaces\\5150912ALABA00_1.webp",
+    "image": "/product-images/necklaces/5150912ALABA00_1.webp",
     "images": [
-      "/product-images\\necklaces\\5150912ALABA00_1.webp"
+      "/product-images/necklaces/5150912ALABA00_1.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -197,9 +197,9 @@
     "categoryName": "Necklaces",
     "currency": "₹",
     "price": 200000,
-    "image": "\\product-images\\necklaces\\511251NLFAA00_1.webp",
+    "image": "/product-images/necklaces/511251NLFAA00_1.webp",
     "images": [
-      "\\product-images\\necklaces\\511251NLFAA00_1.webp"
+      "/product-images/necklaces/511251NLFAA00_1.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -216,9 +216,9 @@
     "categoryName": "Necklaces",
     "currency": "₹",
     "price": 300000,
-    "image": "\\product-images\\necklaces\\-1exklp9d.avif",
+    "image": "/product-images/necklaces/-1exklp9d.avif",
     "images": [
-      "\\product-images\\necklaces\\-1exklp9d.avif"
+      "/product-images/necklaces/-1exklp9d.avif"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -235,9 +235,9 @@
     "categoryName": "Necklaces",
     "currency": "₹",
     "price": 200000,
-    "image": "\\product-images\\necklaces\\plain-gold-lord-lakshmi-design-necklace.webp",
+    "image": "/product-images/necklaces/plain-gold-lord-lakshmi-design-necklace.webp",
     "images": [
-      "\\product-images\\necklaces\\plain-gold-lord-lakshmi-design-necklace.webp"
+      "/product-images/necklaces/plain-gold-lord-lakshmi-design-necklace.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -254,9 +254,9 @@
     "categoryName": "Necklaces",
     "currency": "₹",
     "price": 300000,
-    "image": "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg",
+    "image": "/product-images/necklaces/1734096124_09304967ec20255129f0.jpg",
     "images": [
-      "\\product-images\\necklaces\\1734096124_09304967ec20255129f0.jpg"
+      "/product-images/necklaces/1734096124_09304967ec20255129f0.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -273,9 +273,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 9995,
-    "image": "\\product-images\\earring\\earring-design3.webp",
+    "image": "/product-images/earring/earring-design3.webp",
     "images": [
-      "\\product-images\\earring\\earring-design3.webp"
+      "/product-images/earring/earring-design3.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -292,9 +292,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 19999,
-    "image": "\\product-images\\earring\\earring-design4.webp",
+    "image": "/product-images/earring/earring-design4.webp",
     "images": [
-      "\\product-images\\earring\\earring-design4.webp"
+      "/product-images/earring/earring-design4.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -311,9 +311,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 19999,
-    "image": "\\product-images\\earring\\earring-design5.jpg",
+    "image": "/product-images/earring/earring-design5.jpg",
     "images": [
-      "\\product-images\\earring\\earring-design5.jpg"
+      "/product-images/earring/earring-design5.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -330,9 +330,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 29999,
-    "image": "\\product-images\\earring\\earring-design6.jpg",
+    "image": "/product-images/earring/earring-design6.jpg",
     "images": [
-      "\\product-images\\earring\\earring-design6.jpg"
+      "/product-images/earring/earring-design6.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -349,9 +349,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 50000,
-    "image": "\\product-images\\earring\\earring-design7.webp",
+    "image": "/product-images/earring/earring-design7.webp",
     "images": [
-      "\\product-images\\earring\\earring-design7.webp"
+      "/product-images/earring/earring-design7.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -368,9 +368,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 9999,
-    "image": "\\product-images\\earring\\earring-design8.webp",
+    "image": "/product-images/earring/earring-design8.webp",
     "images": [
-      "\\product-images\\earring\\earring-design8.webp"
+      "/product-images/earring/earring-design8.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -387,9 +387,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 25000,
-    "image": "\\product-images\\earring\\earring-design9.webp",
+    "image": "/product-images/earring/earring-design9.webp",
     "images": [
-      "\\product-images\\earring\\earring-design9.webp"
+      "/product-images/earring/earring-design9.webp"
     ],
     "videoUrl": null,
     "groupImage": null,
@@ -406,9 +406,9 @@
     "categoryName": "Earrings",
     "currency": "₹",
     "price": 30000,
-    "image": "\\product-images\\earring\\earring-design10.jpg",
+    "image": "/product-images/earring/earring-design10.jpg",
     "images": [
-      "\\product-images\\earring\\earring-design10.jpg"
+      "/product-images/earring/earring-design10.jpg"
     ],
     "videoUrl": null,
     "groupImage": null,

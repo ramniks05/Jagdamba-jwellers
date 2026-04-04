@@ -28,7 +28,6 @@ const mainBanner = mainBannerData?.mainBanner ?? defaultBanner
 const heroYoutubeId =
   getYoutubeVideoId(mainBanner?.youtubeVideoId) ||
   getYoutubeVideoId(mainBanner?.youtubeUrl)
-const collectionBanners = mainBannerData?.collectionBanners ?? []
 const categoriesData = Array.isArray(categoriesDataImport) ? categoriesDataImport : []
 
 export default function Home() {
@@ -99,28 +98,6 @@ export default function Home() {
               </div>
               <span className="category-card-name">{cat.name}</span>
               <span className="category-card-count">{cat.productCount} pieces</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="section collection-banners">
-        <h2 className="section-title">Collections</h2>
-        <div className="collection-grid">
-          {collectionBanners.map((col) => (
-            <Link
-              key={col.id}
-              to={col.link}
-              className="collection-card"
-            >
-              <div className="collection-card-img">
-                <img src={col.image} alt={col.title} />
-                <div className="collection-card-overlay" />
-              </div>
-              <div className="collection-card-content">
-                <h3>{col.title}</h3>
-                <p>{col.subtitle}</p>
-              </div>
             </Link>
           ))}
         </div>

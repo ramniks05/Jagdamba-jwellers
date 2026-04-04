@@ -16,6 +16,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 0.75rem 1.5rem;
+  min-height: 2rem;
 }
 
 .topbar-item {
@@ -23,6 +24,7 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 0.8rem;
+  line-height: 1;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.95);
   text-decoration: none;
@@ -46,6 +48,21 @@
 
 .topbar-whatsapp .topbar-icon {
   color: #fff;
+}
+
+.topbar-whatsapp {
+  background: #25d366;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+  font-weight: 600;
+}
+
+.topbar-whatsapp:hover {
+  background: #1fb956;
+  color: #ffffff;
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 .topbar-text {
@@ -90,6 +107,11 @@
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.12);
     max-width: none;
+  }
+
+  .topbar-whatsapp {
+    background: #25d366;
+    border-color: rgba(255, 255, 255, 0.45);
   }
 
   .topbar-icon {
